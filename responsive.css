@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+@media screen and (max-width: 599px) {
+  .header_logo {
+    height: 75px;
+  }
+  .header_title {
+    font-size: 3em;
+  }
+  .header_subtitle {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 449px) {
+  .header_logo {
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .header_text{
+    margin-bottom: 5px;
+  }
+  .header_title {
+    font-size: 2em;
+  }
+  .header_subtitle {
+    font-size: 1em;
+  }
+  .main_pic {
+    height: 400px;
+  }
+  .featured_head{
+    font-size: 2em;
+  }
+  .featured_item{
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_pic {
+    height: 350px;
+    width: 100%;
+  }
+  .featured_pic {
+    height: 150px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,120 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, section, article, div {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  box-shadow: 0 1px 1px #02b3e4;
+  min-height: 56px;
+  display: inline-block;
+  width: 100%;
+
+}
+.header_logo {
+  height: 100px;
+  margin-left: auto;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+  display: inline;
+}
+.header_text{
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+  margin-right: auto;
+  width: 50%;
+}
+.header_title {
+  font-weight: 300;
+  font-size: 4em;
+  display: inline-block;
+  color: #212121;
+}
+.header_subtitle {
+  font-weight: 300;
+  font-size: 2em;
+  vertical-align: bottom;
+  display: inline-block;
+  color: #7d97ad;
+}
+
+/*
+ *
+ * center picture
+ *
+ */
+
+.main_pic {
+  height: 500px;
+  width: 95%;
+  max-width: 100%;
+  margin: .5em .25em;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/*
+ *
+ * featured content
+ *
+ */
+
+.featured_head{
+  font-weight: 300;
+  font-size: 3em;
+  margin: .5em .25em;
+  display: block;
+  color: #2d3c49;
+}
+.featured{
+  margin: .5em .25em;
+  width: 2000px;
+  color: #2d3c49;
+}
+.featured_item{
+  font-weight: 200;
+  font-size: 2em;
+  display: inline-block;
+  float: left;
+}
+.featured_pic {
+  height: 200px;
+  width: 300px;
+  display: block
+}
+.featured_link{
+  vertical-align: bottom;
+  display: block;
+  text-align: left;
+  width: 150px;
+}
